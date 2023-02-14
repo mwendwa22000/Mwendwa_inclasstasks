@@ -2,6 +2,7 @@
 $title="A simple CRUD app";
 include '../layout/header.php';
 ?>
+
 <style>
     body{
       color: white !important;
