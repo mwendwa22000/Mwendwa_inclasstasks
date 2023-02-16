@@ -51,7 +51,7 @@
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href=""></a>
+          <a class="nav-link" href="updatesingle.php">Exercise 6</a>
         </li>
         
       </ul>

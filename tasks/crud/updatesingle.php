@@ -1,3 +1,4 @@
+<?php include"header.php" ?>
 <?php 
 $title="update your info";
 include'../layout/header.php';
@@ -37,3 +38,4 @@ if (isset($_POST['UPDATE'])){
     else{echo"Record Not Modified";}
 
 }
+<?php include"footer.php" ?>

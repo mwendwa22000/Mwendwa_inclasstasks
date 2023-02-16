@@ -1,4 +1,4 @@
-<?php include"l.header.php" ?>
+<?php include"header.php" ?>
 
 <h>Write a script that gets the current month and prints one of the following responses, 
     depending on whether it's August or not:</h1>
@@ -93,4 +93,4 @@ switch ($user_agent) {
 
 
 ?>
-<?php include"l.footer.php" ?>
+<?php include"footer.php" ?>
