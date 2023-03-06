@@ -197,13 +197,6 @@ border-radius:50%;
 </head>
  <body> 
 
-<div>
-
-  <div class="col-md-5">
-   <article> <image class="image-fluid  " src="logo.png" alt = model></image></article>
- </div>
- <div class="text">
-
    <h1> Welcome</h1>
   <h4>The first sentence of the description clearly outlines something unique about the restaurant: its passion for masa. This establishes the "traditional" component of Suerte's menu, which blends traditional Mexican cooking with local Texas ingredients. The photo beside the description further amplifies this idea, showcasing traditional Mexican art while establishing a bright, exuberant visual style for the brand. When image and text work in harmony like this, it can be extremely powerful.
  </div>

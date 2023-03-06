@@ -1,4 +1,4 @@
-<?php include"header.php" ?>
+<?php include"../layout/header.php" ?>
 <?php 
 $title="update your info";
 include'../layout/header.php';
@@ -35,7 +35,33 @@ if (isset($_POST['UPDATE'])){
     if($query){
         echo"<h2>your information is updated successfully</h2>";
     }
-    else{echo"Record Not Modified";}
+    else{echo"<h2>Record Not Modified<h2>";}
+
+
+
+    ?>
+    <?php
+    }
+    if (isset($_POST['delete'])
+    {
+     $fname=$_POST['fname'];
+     $lname=$_POST['lname'];
+     $groupid=$_POST['groupid'];
+     $city=$_POST['city'];
+     $query=mysqli_query($conn,"DELETE from studentinfo where id='$a' ");
+    
+    if($query){echo"<h2>your information is successfully deleted</h2>";}
+
+    else{echo"<h2>your information is not delete</h2>";}
+
+    }
+    ?>
+    
+    <?php
+    $conn->close();
+
+
+
 
 }
-<?php include"footer.php" ?>
+<?php include"../layout/footer.php" ?>

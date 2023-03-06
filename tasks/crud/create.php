@@ -9,7 +9,7 @@ include '../layout/header.php';
       text-align: center !important;
     }
   </style>
-<form action="" method="post">
+<form action="" method="post" onsubmit="return crud()" name= "form1"">
     <input type="text" name="fname" placeholder="Fisrt Name" required><br><br>
     <input type="text" name="lname" placeholder="Last Name" required><br><br>
     <input type="text" name="city" placeholder="City" required><br><br>

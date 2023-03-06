@@ -11,7 +11,9 @@
   a, .nav-link,.navbar-brand {
     color: white;
 }
+
     </style>
+    <script src="js/site.js"></script>
 </head>
 <body>
   <div class="container" >
@@ -41,17 +43,20 @@
           <a class="nav-link" href="ex2.php">Exercise 2</a>
         </li> 
         <li class="nav-item">
-          <a class="nav-link" href="variable.php">Exercise 3</a>
+          <a class="nav-link" href="variable.php">Variable</a>
         </li>
           <li class="nav-item">
-          <a class="nav-link" href="controlflow.php">Exercise 4</a>
+          <a class="nav-link" href="controlflow.php">controlflow</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="array.php">Exercise 5</a>
+          <a class="nav-link" href="array.php">Array</a>
         </li>
 
         <li class="nav-item">
-          <a class="nav-link" href="updatesingle.php">Exercise 6</a>
+          <a class="nav-link" href="updatesingle.php">Updatesingle</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="jsinclass.php">Jsinclass</a>
         </li>
         
       </ul>

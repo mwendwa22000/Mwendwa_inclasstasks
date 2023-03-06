@@ -5,11 +5,15 @@
 
   <!-- Copyright -->
   <div class="footer-copyright text-center py-3">© 2020 Copyright
+  <br>
+  <?php
+  echo"This was last modified on".date("Y/m/d")."<br>";
+  ?>
   </div>
   <!-- Copyright -->
 
 </footer></div>
-</div>
+
 
 <!-- Optional JavaScript -->
       <!-- jQuery first, then Popper.js, then Bootstrap JS -->
