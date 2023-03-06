@@ -12,10 +12,10 @@ $row = mysqli_fetch_array($results);
 <form name="update" method="post"action="">
 
 <form action="" method="post">
-    <input type="text" name="fname" placeholder="Fisrt Name" required value="<?php echo $row ['fname'];><br><br>
-    <input type="text" name="lname" placeholder="Last Name"  required class="<?php echo $row ['lname'];><br><br>
-    <input type="text" name="city" placeholder="City" required value>"<?php echo $row['city'];?>"><br><br>
-    <select name="groupid" value="<=>
+    <input type="text" name="fname" placeholder="Fisrt Name" required value=""><?php echo $row ['fname'];?><br><br>
+    <input type="text" name ="lname" placeholder="Last Name"  required class=""><?php echo $row ['lname'];?><br><br>
+    <input type="text" name ="city" placeholder="City" required value=""><?php echo $row['city'];?><br><br>
+    <select name="groupid" value="">
         <option value="BBCAP22">BBCAP22</option>
         <option value="BBCAP21">BBCAP21</option>
         <option value="others">others</option>
@@ -28,8 +28,8 @@ $row = mysqli_fetch_array($results);
 <?php
 
 if (isset($_POST['UPDATE'])){
-    $fname=&_POST['fname'];
-    $lname=&_POST['lname'];
+    $fname=$_POST['fname'];
+    $lname=$_POST['lname'];
     $query=mysqli_query($conn,"uUPDATE studentinfo set fname='$fname',
     lname='$lname' where id='$a'");
     if($query){
@@ -42,7 +42,7 @@ if (isset($_POST['UPDATE'])){
     ?>
     <?php
     }
-    if (isset($_POST['delete'])
+    if (isset($_POST['delete']))
     {
      $fname=$_POST['fname'];
      $lname=$_POST['lname'];
@@ -60,8 +60,8 @@ if (isset($_POST['UPDATE'])){
     <?php
     $conn->close();
 
+?>
 
 
 
-}
 <?php include"../layout/footer.php" ?>
